@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me - Yusuf Israel Timileyin</title>
+  <style>
+    /* Shared Reset & Base (consistent with Profile Card) */
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.5; color: #333; background: #f5f5f5; padding: 2rem;
+      display: flex; justify-content: center; align-items: center; min-height: 100vh;
+    }
+    /* Page Styles */
+    .about-page { background: white; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); max-width: 600px; width: 100%; padding: 2rem; }
+    @media (max-width: 767px) { .about-page { padding: 1.5rem; } }
+    h1 { font-size: 1.75rem; margin-bottom: 1.5rem; color: #212529; text-align: center; }
+    section { margin-bottom: 2rem; padding: 1.5rem; border: 1px solid #dee2e6; border-radius: 8px; background: #f8f9fa; }
+    @media (min-width: 768px) { section { display: grid; grid-template-columns: 1fr 2fr; gap: 1.5rem; } } /* Responsive: Text beside heading on desktop */
+    h2 { font-size: 1.5rem; color: #007bff; margin-bottom: 0.5rem; grid-column: 1 / -1; } /* Full width heading */
+    h3 { font-size: 1.25rem; color: #495057; margin-bottom: 0.75rem; }
+    p, ul { margin-bottom: 1rem; }
+    ul { padding-left: 1.25rem; list-style: disc; }
+    li { margin-bottom: 0.5rem; }
+  </style>
+</head>
+<body>
+  <main data-testid="test-about-page" class="about-page">
+    <h1>About Me: Reflections</h1>
+    
+    <section data-testid="test-about-bio">
+      <h2>Bio</h2>
+      <p>I'm Yusuf Israel Timileyin, a passionate frontend developer with a knack for crafting intuitive, accessible interfaces that bridge creativity and code. From tinkering with vanilla JS to embracing modern frameworks, my journey has been about turning pixels into meaningful experiences. Outside of screens, you'll find me devouring novels or pushing limits in extreme sports—fuel for the mind and body.</p>
+    </section>
+
+    <section data-testid="test-about-goals">
+      <h2>Goals in This Program</h2>
+      <div>
+        <h3>Short-Term</h3>
+        <ul>
+          <li>Master advanced accessibility patterns to ensure every user feels included.</li>
+          <li>Build a portfolio of responsive components that scale effortlessly across devices.</li>
+        </ul>
+        <h3>Long-Term</h3>
+        <ul>
+          <li>Contribute to open-source projects that democratize web development.</li>
+          <li>Launch a personal app blending my love for coding and storytelling.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section data-testid="test-about-confidence">
+      <h2>Areas of Low Confidence</h2>
+      <p>Honesty time: While I'm solid on HTML/CSS/JS fundamentals, I sometimes second-guess complex state management in larger apps. Animation libraries feel like uncharted territory, and optimizing for low-bandwidth users in diverse regions is a growth edge. These gaps? They're my roadmap—each challenge sharpens the craft.</p>
+    </section>
+
+    <section data-testid="test-about-future-note">
+      <h2>Note to Future Self</h2>
+      <p>Hey, Future Yusuf—remember this: Code isn't just syntax; it's empathy in action. When doubt creeps in, revisit your first "Hello World"—the spark is still there. Prioritize rest amid the sprints, collaborate wildly, and never stop asking "Why?" Your extreme sports grit? Channel it into bold designs. You've got this—keep delighting users, one accessible pixel at a time.</p>
+    </section>
+
+    <section data-testid="test-about-extra">
+      <h2>Extra Thoughts</h2>
+      <p>A quick shoutout to the dev community: Gratitude for the late-night Stack Overflow saves and Twitter threads that demystify the madness. If you're reading this, thanks for being part of the journey—let's connect and build something epic together.</p>
+    </section>
+  </main>
+
+  <script>
+    // Minimal JS: Just for potential future interactivity (e.g., smooth scroll)
+    // Quick Test: Paste in console to verify sections
+    // console.log('About Tests:', Array.from(document.querySelectorAll('[data-testid^="test-about-"]')).map(el => el.dataset.testid));
+  </script>
+</body>
+</html>
