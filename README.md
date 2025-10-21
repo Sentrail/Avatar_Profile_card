@@ -16,7 +16,7 @@ A sleek, accessible, and responsive Profile Card built with semantic HTML, moder
 
 ## 🚀 Quick Start
 1. **Clone & Run Locally**:
- git clone https://github.com/Sentrail/profile-card-component.git
+ git clone https://github.com/Sentrail/Avatar_Profile_card.git
  cd profile-card-component
  open index.html  # Or drag to browser
 
@@ -43,9 +43,11 @@ A sleek, accessible, and responsive Profile Card built with semantic HTML, moder
 - No external deps: Pure vanilla for easy embedding (e.g., in React/Vue via iframe).
 
 ## 📁 Project Structure
-profile-card-component/
+Profile_card/
 ├── index.html          # Main component (copy-paste ready)
 ├── test-profile-card.js # Simple JS tests (run in console)
+├── contact.html
+├── about.html
 └── README.md           # You're reading it!
 
 ## 🤝 Contributing
@@ -57,4 +59,4 @@ MIT—use freely, attribute if you like.
 Built with ❤️ by [Yusuf Israel](https://github.com/Sentrail). Questions? Open an issue!
 
 ---
-*Last Updated: October 18, 2025*
+*Last Updated: October 21, 2025*
